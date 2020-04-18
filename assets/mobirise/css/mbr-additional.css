@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400i,700,700i&display=swap);
-@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,400,500,600,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,500,600,700,400i,500i,600i,700i&display=swap);
 
 
 
@@ -25,15 +25,15 @@ body {
   font-size: 6.4rem;
 }
 .display-4 {
-  font-family: 'Comfortaa', display;
-  font-size: 1.8rem;
+  font-family: 'Lora', serif;
+  font-size: 1.4rem;
   font-display: swap;
 }
 .display-4 > .mbr-iconfont {
-  font-size: 2.88rem;
+  font-size: 2.24rem;
 }
 .display-5 {
-  font-family: 'Comfortaa', display;
+  font-family: 'Lora', serif;
   font-size: 3rem;
   font-display: swap;
 }
@@ -42,11 +42,11 @@ body {
 }
 .display-7 {
   font-family: 'Noto Serif', serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-display: swap;
 }
 .display-7 > .mbr-iconfont {
-  font-size: 1.28rem;
+  font-size: 1.6rem;
 }
 /* ---- Fluid typography for mobile devices ---- */
 /* 1.4 - font scale ratio ( bootstrap == 1.42857 ) */
@@ -65,9 +65,9 @@ body {
     line-height: calc( 1.4 * (2.05rem + (4 - 2.05) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-4 {
-    font-size: 1.44rem;
-    font-size: calc( 1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20)));
-    line-height: calc( 1.4 * (1.28rem + (1.8 - 1.28) * ((100vw - 20rem) / (48 - 20))));
+    font-size: 1.12rem;
+    font-size: calc( 1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20)));
+    line-height: calc( 1.4 * (1.14rem + (1.4 - 1.14) * ((100vw - 20rem) / (48 - 20))));
   }
   .display-5 {
     font-size: 2.4rem;
@@ -548,11 +548,11 @@ a:hover {
 }
 .form-control {
   font-family: 'Noto Serif', serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-display: swap;
 }
 .form-control > .mbr-iconfont {
-  font-size: 1.28rem;
+  font-size: 1.6rem;
 }
 blockquote {
   border-color: #fa0716;
@@ -739,7 +739,7 @@ section.lazy-placeholder:after {
 .cid-rWvtWkUSkH {
   padding-top: 120px;
   padding-bottom: 60px;
-  background-image: url("../../../assets/images/7c241w3k-400x400-400x400.jpeg");
+  background-color: #f9f295;
 }
 .cid-rWvtWkUSkH .mbr-iconfont {
   font-size: 48px;
